@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useGesture } from 'react-use-gesture';
+import { useGesture } from '@use-gesture/react';
 import { speciesCategories } from '../constants/animals';
 
 function AnimalCard({ animal, active, onSwipe }) {
